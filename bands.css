@@ -1,0 +1,55 @@
+.loading {
+  display: none;
+}
+.loading img {
+  width: 50%;
+}
+.error {
+  display: none;
+}
+.empty {
+  display: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: rgb(240, 112, 155);
+  height: 10vh;
+  width: 20vw;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+select {
+  width: 10vw;
+  height: 5vh;
+  border: 2px solid rgb(240, 112, 155);
+}
+label {
+  font: 2em sans-serif;
+  color: rgb(240, 112, 155);
+}
+.dropdown {
+  width: 50vw;
+  height: 40vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50%;
+  border: 2px solid rgb(240, 112, 155);
+  margin: 20px;
+}
+option {
+  border: 2px solid rgb(240, 112, 155);
+  color: rgb(240, 112, 155);
+  font: 1em sans-serif;
+}
